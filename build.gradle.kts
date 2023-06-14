@@ -14,6 +14,9 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-thymeleaf:2.5.8")
+//	implementation("org.apache.tomcat.embed:tomcat-embed-jasper")
+//	implementation("javax.servlet:jstl")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
